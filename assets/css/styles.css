@@ -26,6 +26,11 @@ header {
     width: 100%;
     box-shadow: 0 2px 4px #3a3a3a;
 }
+/* header link styles */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 /* main */
 main {
     background-color: lightblue;
@@ -42,4 +47,6 @@ h1,
 h2,
 h3 {
     font-family: "Cal Sans", sans-serif;
+    text-transform: uppercase;
+    color: #222222;
 }
