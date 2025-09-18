@@ -52,7 +52,7 @@ main {
 }
 
 /* hero section */
-#hero {
+/* #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
@@ -62,6 +62,23 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 250px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+} */
+#hero {
+    position: relative; /* Make #hero a positioning context */
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: rgba(255, 0, 0, 0.548);
+    font-size: 130%;
+    position: absolute;
+    bottom: 40px; /* Fixed distance from bottom of #hero */
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -84,7 +101,7 @@ main {
 
 #reasons div {
     line-height: 20px; /* Improve readability with line height */
-    margin-bottom: 20px; /* Space between paragraphs */
+    margin-bottom: 20Spx; /* Space between paragraphs */
 }
 
 #reasons div p {
