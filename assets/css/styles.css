@@ -1,3 +1,6 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* remove default styling */
 * {
     margin: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: #3a3a3a;
+    font-family: "Space Mono", sans-serif;
 }
 /* header */
 header {
@@ -26,34 +30,4 @@ main {
 /* footer */
 footer {
     background-color: orange;
-}
-
-/* font styles */
-.cal-sans-regular {
-    font-family: "Cal Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.space-mono-regular {
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.space-mono-bold {
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.space-mono-regular-italic {
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.space-mono-bold-italic {
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: italic;
 }
