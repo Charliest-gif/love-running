@@ -42,18 +42,7 @@ main {
     margin-top: 41.5px; /* Adjust based on header height */
     /* footer */
 }
-#social-networks {
-    list-style: none;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    padding: 20px 0;
-}
 
-#social-networks i {
-    font-size: 1.5rem;
-    color: #3a3a3a;
-}
 /* heading styles */
 h1,
 h2,
@@ -144,4 +133,18 @@ nav {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+/* footer styles */
+#social-networks {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#social-networks i {
+    font-size: 1.5rem;
+    color: #3a3a3a;
 }
