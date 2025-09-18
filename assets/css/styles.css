@@ -31,3 +31,10 @@ main {
 footer {
     background-color: orange;
 }
+
+/* heading styles */
+h1,
+h2,
+h3 {
+    font-family: "Cal Sans", sans-serif;
+}
