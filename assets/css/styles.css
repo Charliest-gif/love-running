@@ -25,6 +25,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 4px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* header link styles */
 header a {
@@ -63,7 +66,26 @@ h3 {
     margin-bottom: 0.5rem; /* Space between list items */
 }
 
-#menu .active {
+.active {
     border-bottom: 1px solid #222222;
     padding-bottom: 0%;
+}
+
+/* nav bar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    top: 100%; /* Position below header */
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px -2px #3a3a3a; /* Correct box-shadow for bottom only */
+    display: none; /* Hide nav by default */
+}
+/* nav toggle */
+.nav-toggle {
+    display: none; /* Hide the checkbox */
+}
+#menu-toggle:checked ~ nav {
+    display: block; /* Show nav when checkbox is checked */
 }
