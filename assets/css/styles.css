@@ -39,10 +39,15 @@ main {
     background-color: lightblue;
     /* main element take up surplus space */
     flex: 1 0 auto;
-    margin-top: px; /* Adjust based on header height */
-/* footer */
-footer {
-    background-color: orange;
+    margin-top: 41.5px; /* Adjust based on header height */
+    /* footer */
+}
+#social-networks {
+    /* list-style: none; */
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
 }
 
 /* heading styles */
