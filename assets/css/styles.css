@@ -39,7 +39,7 @@ main {
     background-color: lightblue;
     /* main element take up surplus space */
     flex: 1 0 auto;
-}
+    margin-top: px; /* Adjust based on header height */
 /* footer */
 footer {
     background-color: orange;
@@ -83,7 +83,7 @@ nav {
     display: none; /* Hide nav by default */
 }
 /* nav toggle */
-.nav-toggle {
+#menu-toggle {
     display: none; /* Hide the checkbox */
 }
 #menu-toggle:checked ~ nav {
