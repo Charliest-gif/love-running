@@ -47,6 +47,13 @@ h1,
 h2,
 h3 {
     font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #222222;
+}
+#menu {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default left padding */
 }
