@@ -51,9 +51,19 @@ h3 {
     text-transform: uppercase;
     color: #222222;
 }
+/* navigation menu styles */
 #menu {
     font-size: 1.1rem;
     letter-spacing: 1px;
     list-style: none; /* Remove bullet points */
     padding-left: 0; /* Remove default left padding */
+}
+
+#menu li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
+#menu .active {
+    border-bottom: 1px solid #222222;
+    padding-bottom: 0%;
 }
