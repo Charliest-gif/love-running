@@ -68,10 +68,38 @@ main {
     padding-left: 10px;
 }
 
+/* reasons */
+
+#reasons {
+    margin: auto 20px;
+    width: 90%;
+}
+
+#reasons h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#reasons div {
+    line-height: 20px; /* Improve readability with line height */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+#reasons div p {
+    margin-bottom: 10px; /* Space between paragraphs */
+    padding: 0 20px; /* Padding for better text alignment */
+}
+
+#reasons div hr {
+    border-top: 1px solid #3a3a3a; /* Custom horizontal line */
+    margin: 0 5px 20px 5px; /* Spacing around the line */
+}
+
 #cover-text h2,
 #cover-text h3 {
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
     margin-bottom: 10px;
 }
 
