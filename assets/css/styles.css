@@ -123,17 +123,32 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 320px; /* Ensure enough space for the circle */
+    min-height: 300px; /* Ensure enough space for the circle */
 }
 #circle-cover-bg {
     background: url("../images/reasons-image.webp") no-repeat top center/cover;
     height: 90vh;
     width: 90vh;
-    margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
 }
+
+#benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column; /* Default: single column */
+}
+
+#physical-benefits,
+#mental-benefits,
+#benefits-image {
+    flex: 1 1 300px;
+    min-width: 250px;
+}
+
 /* navigation menu styles */
 #menu {
     font-size: 1.1rem;
@@ -227,6 +242,12 @@ nav {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+    #benefits {
+        flex-direction: row;
+    }
+    #mental-benefits {
+        text-align: end;
     }
 }
 
