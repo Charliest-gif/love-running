@@ -119,7 +119,21 @@ main {
     color: #ffffff;
     margin-bottom: 10px;
 }
-
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 320px; /* Ensure enough space for the circle */
+}
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vh;
+    width: 90vh;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 /* navigation menu styles */
 #menu {
     font-size: 1.1rem;
