@@ -279,6 +279,14 @@ nav {
     }
 }
 
+/* gallery */
+#photos img {
+    width: 100%;
+}
+#photos {
+    line-height: 0;
+}
+
 /* footer styles */
 #social-networks {
     list-style: none;
