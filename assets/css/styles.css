@@ -307,6 +307,19 @@ nav {
 }
 
 /* Form */
+#sign-up-form label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 16px;
+    font-size: 1rem;
+}
+
+#sign-up-form input[type="radio"] {
+    margin: 0;
+    accent-color: #e63946; /* Optional: style radio color */
+    align-items: center;
+}
 #sign-up {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
