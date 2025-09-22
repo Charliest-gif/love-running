@@ -92,8 +92,9 @@ main {
 /* reasons */
 
 #reasons {
-    margin: auto 20px;
-    width: 90%;
+    /* width: 90%; */
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #reasons h2 {
@@ -105,7 +106,7 @@ main {
 
 #reasons div {
     line-height: 20px; /* Improve readability with line height */
-    margin-bottom: 20Spx; /* Space between paragraphs */
+    margin-bottom: 20px; /* Space between paragraphs */
 }
 
 #reasons div p {
@@ -150,7 +151,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px; /* Ensure enough space for the circle */
+    min-height: 350px; /* Ensure enough space for the circle */
 }
 #circle-cover-bg {
     background: url("../images/reasons-image.webp") no-repeat top center/cover;
@@ -172,7 +173,7 @@ main {
 #physical-benefits,
 #mental-benefits,
 #benefits-image {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
     min-width: 250px;
 }
 
